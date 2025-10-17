@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>404 — Lost in the Jungle</title>
+  <style>
+    body {
+      background: #fafafa;
+      font-family: "Comic Sans MS", "Comic Neue", sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      color: #333;
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+    p {
+      font-size: 1.25rem;
+      max-width: 400px;
+      margin-bottom: 2rem;
+    }
+    a {
+      color: #0077cc;
+      text-decoration: none;
+      border: 2px solid #0077cc;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      transition: 0.2s;
+    }
+    a:hover {
+      background-color: #0077cc;
+      color: white;
+    }
+    .emoji {
+      font-size: 4rem;
+      margin-bottom: 1rem;
+      animation: swing 2s infinite;
+    }
+    @keyframes swing {
+      0% { transform: rotate(0deg); }
+      25% { transform: rotate(10deg); }
+      50% { transform: rotate(0deg); }
+      75% { transform: rotate(-10deg); }
+      100% { transform: rotate(0deg); }
+    }
+  </style>
+</head>
+<body>
+  <div class="emoji">🧭</div>
+  <h1>404 — Lost in the Jungle</h1>
+  <p>Looks like you took a wrong turn in the Amazon. Let’s get you back on the trail!</p>
+  <a href="/">🏡 Return Home</a>
+</body>
+</html>
